@@ -16,16 +16,19 @@
 		3F234A4A15B5A0E7003376DE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A4815B5A0E7003376DE /* MainStoryboard_iPhone.storyboard */; };
 		3F234A4D15B5A0E7003376DE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A4B15B5A0E7003376DE /* MainStoryboard_iPad.storyboard */; };
 		3F234A5015B5A0E7003376DE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234A4F15B5A0E7003376DE /* FirstViewController.m */; };
-		3F234A5215B5A0E7003376DE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A5115B5A0E7003376DE /* first.png */; };
-		3F234A5415B5A0E7003376DE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A5315B5A0E7003376DE /* first@2x.png */; };
 		3F234A5715B5A0E7003376DE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234A5615B5A0E7003376DE /* SecondViewController.m */; };
-		3F234A5915B5A0E7003376DE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A5815B5A0E7003376DE /* second.png */; };
-		3F234A5B15B5A0E7003376DE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A5A15B5A0E7003376DE /* second@2x.png */; };
 		3F234A6315B5A0E7003376DE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F234A6215B5A0E7003376DE /* SenTestingKit.framework */; };
 		3F234A6415B5A0E7003376DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F234A3615B5A0E7003376DE /* UIKit.framework */; };
 		3F234A6515B5A0E7003376DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F234A3815B5A0E7003376DE /* Foundation.framework */; };
 		3F234A6D15B5A0E7003376DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F234A6B15B5A0E7003376DE /* InfoPlist.strings */; };
 		3F234A7015B5A0E7003376DE /* CalculateTheNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F234A6F15B5A0E7003376DE /* CalculateTheNumberTests.m */; };
+		3FFE2E9A15B700D300EAD0C4 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE2E9915B700D300EAD0C4 /* first.png */; };
+		3FFE2E9E15B7333700EAD0C4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE2E9D15B7333700EAD0C4 /* TableViewController.m */; };
+		3FFE2EB015B743DB00EAD0C4 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE2EAF15B743DB00EAD0C4 /* second@2x.png */; };
+		3FFE2EB415B7451100EAD0C4 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE2EB315B7451100EAD0C4 /* second.png */; };
+		3FFE2EB715B7560300EAD0C4 /* LevelSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE2EB615B7560300EAD0C4 /* LevelSelect.m */; };
+		3FFE2EC015B75EC300EAD0C4 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFE2EBF15B75EC300EAD0C4 /* first@2x.png */; };
+		3FFE2EC315B7603600EAD0C4 /* EasyLevelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE2EC215B7603600EAD0C4 /* EasyLevelsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,32 +42,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F234A3215B5A0E7003376DE /* CalculateTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculateTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F234A3215B5A0E7003376DE /* CTN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F234A3615B5A0E7003376DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F234A3815B5A0E7003376DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F234A3A15B5A0E7003376DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F234A3E15B5A0E7003376DE /* CalculateTheNumber-Info.plist */ = {isa = PBXFileReference; path = "CalculateTheNumber-Info.plist"; sourceTree = "<group>"; };
+		3F234A3E15B5A0E7003376DE /* CalculateTheNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculateTheNumber-Info.plist"; sourceTree = "<group>"; };
 		3F234A4015B5A0E7003376DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F234A4215B5A0E7003376DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F234A4415B5A0E7003376DE /* CalculateTheNumber-Prefix.pch */ = {isa = PBXFileReference; path = "CalculateTheNumber-Prefix.pch"; sourceTree = "<group>"; };
-		3F234A4515B5A0E7003376DE /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F234A4415B5A0E7003376DE /* CalculateTheNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalculateTheNumber-Prefix.pch"; sourceTree = "<group>"; };
+		3F234A4515B5A0E7003376DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F234A4615B5A0E7003376DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3F234A4915B5A0E7003376DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		3F234A4C15B5A0E7003376DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		3F234A4E15B5A0E7003376DE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		3F234A4E15B5A0E7003376DE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		3F234A4F15B5A0E7003376DE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		3F234A5115B5A0E7003376DE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		3F234A5315B5A0E7003376DE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		3F234A5515B5A0E7003376DE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		3F234A5515B5A0E7003376DE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3F234A5615B5A0E7003376DE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		3F234A5815B5A0E7003376DE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		3F234A5A15B5A0E7003376DE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		3F234A6115B5A0E7003376DE /* CalculateTheNumberTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculateTheNumberTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F234A6215B5A0E7003376DE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3F234A6A15B5A0E7003376DE /* CalculateTheNumberTests-Info.plist */ = {isa = PBXFileReference; path = "CalculateTheNumberTests-Info.plist"; sourceTree = "<group>"; };
+		3F234A6A15B5A0E7003376DE /* CalculateTheNumberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculateTheNumberTests-Info.plist"; sourceTree = "<group>"; };
 		3F234A6C15B5A0E7003376DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F234A6E15B5A0E7003376DE /* CalculateTheNumberTests.h */ = {isa = PBXFileReference; path = CalculateTheNumberTests.h; sourceTree = "<group>"; };
+		3F234A6E15B5A0E7003376DE /* CalculateTheNumberTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculateTheNumberTests.h; sourceTree = "<group>"; };
 		3F234A6F15B5A0E7003376DE /* CalculateTheNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculateTheNumberTests.m; sourceTree = "<group>"; };
+		3FFE2E9915B700D300EAD0C4 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		3FFE2E9C15B7333700EAD0C4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		3FFE2E9D15B7333700EAD0C4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		3FFE2EAF15B743DB00EAD0C4 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		3FFE2EB315B7451100EAD0C4 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		3FFE2EB515B7560300EAD0C4 /* LevelSelect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelect.h; sourceTree = "<group>"; };
+		3FFE2EB615B7560300EAD0C4 /* LevelSelect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelect.m; sourceTree = "<group>"; };
+		3FFE2EBF15B75EC300EAD0C4 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		3FFE2EC115B7603600EAD0C4 /* EasyLevelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyLevelsViewController.h; sourceTree = "<group>"; };
+		3FFE2EC215B7603600EAD0C4 /* EasyLevelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyLevelsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +113,7 @@
 		3F234A3315B5A0E7003376DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F234A3215B5A0E7003376DE /* CalculateTheNumber.app */,
+				3F234A3215B5A0E7003376DE /* CTN.app */,
 				3F234A6115B5A0E7003376DE /* CalculateTheNumberTests.octest */,
 			);
 			name = Products;
@@ -124,18 +133,8 @@
 		3F234A3C15B5A0E7003376DE /* CalculateTheNumber */ = {
 			isa = PBXGroup;
 			children = (
-				3F234A4515B5A0E7003376DE /* AppDelegate.h */,
-				3F234A4615B5A0E7003376DE /* AppDelegate.m */,
-				3F234A4815B5A0E7003376DE /* MainStoryboard_iPhone.storyboard */,
-				3F234A4B15B5A0E7003376DE /* MainStoryboard_iPad.storyboard */,
-				3F234A4E15B5A0E7003376DE /* FirstViewController.h */,
-				3F234A4F15B5A0E7003376DE /* FirstViewController.m */,
-				3F234A5115B5A0E7003376DE /* first.png */,
-				3F234A5315B5A0E7003376DE /* first@2x.png */,
-				3F234A5515B5A0E7003376DE /* SecondViewController.h */,
-				3F234A5615B5A0E7003376DE /* SecondViewController.m */,
-				3F234A5815B5A0E7003376DE /* second.png */,
-				3F234A5A15B5A0E7003376DE /* second@2x.png */,
+				3F234A7F15B5AE2C003376DE /* MainView */,
+				3F234A8015B5AE3D003376DE /* Levels */,
 				3F234A3D15B5A0E7003376DE /* Supporting Files */,
 			);
 			path = CalculateTheNumber;
@@ -171,6 +170,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3F234A7F15B5AE2C003376DE /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				3F234A4515B5A0E7003376DE /* AppDelegate.h */,
+				3F234A4615B5A0E7003376DE /* AppDelegate.m */,
+				3F234A4815B5A0E7003376DE /* MainStoryboard_iPhone.storyboard */,
+				3F234A4B15B5A0E7003376DE /* MainStoryboard_iPad.storyboard */,
+				3F234A4E15B5A0E7003376DE /* FirstViewController.h */,
+				3F234A4F15B5A0E7003376DE /* FirstViewController.m */,
+				3FFE2E9915B700D300EAD0C4 /* first.png */,
+				3FFE2EBF15B75EC300EAD0C4 /* first@2x.png */,
+				3F234A5515B5A0E7003376DE /* SecondViewController.h */,
+				3F234A5615B5A0E7003376DE /* SecondViewController.m */,
+				3FFE2EB315B7451100EAD0C4 /* second.png */,
+				3FFE2EAF15B743DB00EAD0C4 /* second@2x.png */,
+				3FFE2E9C15B7333700EAD0C4 /* TableViewController.h */,
+				3FFE2E9D15B7333700EAD0C4 /* TableViewController.m */,
+				3FFE2EB515B7560300EAD0C4 /* LevelSelect.h */,
+				3FFE2EB615B7560300EAD0C4 /* LevelSelect.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		3F234A8015B5AE3D003376DE /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				3FFE2EC115B7603600EAD0C4 /* EasyLevelsViewController.h */,
+				3FFE2EC215B7603600EAD0C4 /* EasyLevelsViewController.m */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,7 +219,7 @@
 			);
 			name = CalculateTheNumber;
 			productName = CalculateTheNumber;
-			productReference = 3F234A3215B5A0E7003376DE /* CalculateTheNumber.app */;
+			productReference = 3F234A3215B5A0E7003376DE /* CTN.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3F234A6015B5A0E7003376DE /* CalculateTheNumberTests */ = {
@@ -244,10 +275,10 @@
 				3F234A4115B5A0E7003376DE /* InfoPlist.strings in Resources */,
 				3F234A4A15B5A0E7003376DE /* MainStoryboard_iPhone.storyboard in Resources */,
 				3F234A4D15B5A0E7003376DE /* MainStoryboard_iPad.storyboard in Resources */,
-				3F234A5215B5A0E7003376DE /* first.png in Resources */,
-				3F234A5415B5A0E7003376DE /* first@2x.png in Resources */,
-				3F234A5915B5A0E7003376DE /* second.png in Resources */,
-				3F234A5B15B5A0E7003376DE /* second@2x.png in Resources */,
+				3FFE2E9A15B700D300EAD0C4 /* first.png in Resources */,
+				3FFE2EB015B743DB00EAD0C4 /* second@2x.png in Resources */,
+				3FFE2EB415B7451100EAD0C4 /* second.png in Resources */,
+				3FFE2EC015B75EC300EAD0C4 /* first@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +317,9 @@
 				3F234A4715B5A0E7003376DE /* AppDelegate.m in Sources */,
 				3F234A5015B5A0E7003376DE /* FirstViewController.m in Sources */,
 				3F234A5715B5A0E7003376DE /* SecondViewController.m in Sources */,
+				3FFE2E9E15B7333700EAD0C4 /* TableViewController.m in Sources */,
+				3FFE2EB715B7560300EAD0C4 /* LevelSelect.m in Sources */,
+				3FFE2EC315B7603600EAD0C4 /* EasyLevelsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +430,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalculateTheNumber/CalculateTheNumber-Prefix.pch";
 				INFOPLIST_FILE = "CalculateTheNumber/CalculateTheNumber-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CTN;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -407,7 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CalculateTheNumber/CalculateTheNumber-Prefix.pch";
 				INFOPLIST_FILE = "CalculateTheNumber/CalculateTheNumber-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CTN;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -465,6 +499,7 @@
 				3F234A7515B5A0E7003376DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F234A7615B5A0E7003376DE /* Build configuration list for PBXNativeTarget "CalculateTheNumberTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +508,7 @@
 				3F234A7815B5A0E7003376DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
